@@ -1,2 +1,1 @@
-# alx-low_level_programming
-This is C
+This is about flow control in C
