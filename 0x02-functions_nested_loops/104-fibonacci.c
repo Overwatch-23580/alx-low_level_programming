@@ -12,7 +12,7 @@ int main(void)
 
 	printf("%lu, %lu, ", a, b);
 
-	for (count = 3; count <= 98; count++)
+	for (count = 3; count < 98; count++)
 	{
 		c = a + b;
 		printf(", %lu", c);
