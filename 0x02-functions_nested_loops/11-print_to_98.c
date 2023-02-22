@@ -2,11 +2,11 @@
 #include "6-abs.c"
 #include <stdio.h>
 
-/*
- * print_to_98: Main Point
+/**
+ * print_to_98 -  Prints natural number between n to 98
+ * @n: the starting point
  *
  */
-
 void print_to_98(int n)
 {
 	int i;
