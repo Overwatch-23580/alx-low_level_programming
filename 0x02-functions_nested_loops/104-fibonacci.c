@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-	unsigned long int a = 1, b = 2, c, count;
+	unsigned long int a = 1, b = 2, c;
+	int count;
 
 	printf("%lu, %lu, ", a, b);
 
@@ -15,13 +16,10 @@ int main(void)
 	{
 		c = a + b;
 		printf("%lu", c);
-		if (count < 98)
-		{
-			printf(", ");
-		}
+		a = b;
+		b = c;
 	}
-	a = b;
-	b = c;
+
 	printf("\n");
 	return (0);
 }
